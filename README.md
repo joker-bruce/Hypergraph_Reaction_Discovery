@@ -20,7 +20,7 @@ Then install the requirements.txt using the command below:
 ```
 pip install -r requirements.txt
 ```
-\textbf{If not install in this way, error might occur.}
+**Note**: Installation via the recommended method is essential. Errors may occur if installed differently.
 
 ### Data preprocessing
 The data is preprocessed already and dataset can be found in the data\_neg\_balanced\_smiles. Nevertheless, if you want to preprocess the data again, use the following command:
