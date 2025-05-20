@@ -22,17 +22,17 @@ pip install -r requirements.txt
 ```
 **Note**: Installation via the recommended method is essential. Errors may occur if installed differently.
 
-### Data preprocessing
+## Data preprocessing
 The data is preprocessed already and dataset can be found in the data\_neg\_balanced\_smiles. Nevertheless, if you want to preprocess the data again, use the following command:
 
 
 There are five splits automated generated for five-fold cross validation
 
-### Model architecture
+## Model architecture
 [📄 View the Model architecture](pictures/pipeline_overview.pdf)
 ![Page 1](pictures/pipeline_overview.png)
 
-### Training
+###Training
 Please use the following command:
 ```
 python HGNN_ns_new_loss.py --dataset_name hyperedge_1000  --epochs 50 --train_label mix --aggre_method sum --loss_type mse --folder_name exp_bal_1000_ecfp6_mix_sum_mse --encoding ecfp6_feat
