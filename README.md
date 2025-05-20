@@ -2,8 +2,20 @@
 
 ## How to Setup
 ### Environment
+Create a python virtual environment and activate it with:
+```
+python -m venv chemhgnn_env
+source chemhgnn_env/bin/activate
+```
 Please install the DGL library first using command below:
+```
+pip install  dgl -f https://data.dgl.ai/wheels/torch-2.2/cu118/repo.html
+```
 
+Then install torch version 2.2.1 directly:
+```
+pip install dgl 2.2.1
+```
 Then install the requirement.txt using the command below:
 
 
