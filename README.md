@@ -1,4 +1,4 @@
-# Hypergraph_Reaction_Discovery
+# ChemHGNN: A Hierarchical Hypergraph Neural Network for Reaction Virtual Screening and Discovery
 
 ## How to Setup
 ### Environment
