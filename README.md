@@ -14,10 +14,13 @@ pip install  dgl -f https://data.dgl.ai/wheels/torch-2.2/cu118/repo.html
 
 Then install torch version 2.2.1 directly:
 ```
-pip install dgl 2.2.1
+pip install torch==2.2.1
 ```
-Then install the requirement.txt using the command below:
-
+Then install the requirements.txt using the command below:
+```
+pip install -r requirements.txt
+```
+\textbf{If not install in this way, error might occur.}
 
 ### Data preprocessing
 The data is preprocessed already and dataset can be found in the data\_neg\_balanced\_smiles. Nevertheless, if you want to preprocess the data again, use the following command:
