@@ -39,3 +39,6 @@ python HGNN_ns_new_loss.py --dataset_name hyperedge_1000  --epochs 50 --train_la
 ```
 
 After training, the result and checkpoint of the best epoch can be found at data\_neg\_balanced\_smiles/checkpoints/\$folder\_name\$
+
+## Notebooks
+Extra information about the experiment can be found in the folder [nbs](nbs/)
