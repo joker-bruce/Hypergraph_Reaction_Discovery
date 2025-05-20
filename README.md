@@ -30,6 +30,7 @@ There are five splits automated generated for five-fold cross validation
 
 ### Model architecture
 [📄 View the Model architecture](pictures/pipeline_overview.pdf)
+![Page 1](pictures/pipeline_overview.png)
 
 ### Training
 Please use the following command:
