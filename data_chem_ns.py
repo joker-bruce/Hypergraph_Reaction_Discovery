@@ -22,7 +22,6 @@ import time
 from chem_negative_sampling import gen_neg_smiles
 import pdb
 
-#df = pd.read_csv('/afs/crc.nd.edu/user/x/xhuang2/USPTO/Datasets /grant_uspto.csv')#'/afs/crc.nd.edu/user/x/xhuang2/Hypergraph_Reaction_Discovery/grant_uspto_small.csv')
 df = pd.read_csv("./train.txt", header=None, names=["smiles"])
 
 ##Hypergraph without reaction node
@@ -470,8 +469,6 @@ def read_neg_data(neg_hyperedge):#, neg_type):
 if __name__ == "__main__":
     args = util.parse_args()
     start_time = time.time()
-    #data_path = '/afs/crc.nd.edu/user/x/xhuang2/USPTO/Datasets /grant_uspto.csv'
-    #result = prep_data(100, data_path, df, 'mns', 1)
     data_no_feat, data_ecfp4_feat, data_ecfp6_feat, mns_neg_hyperedges, sns_neg_hyperedges, cns_neg_hyperedges, hyperedge_set, neg_hyperedge_set = prep_data(args.datapoints, args.datapath, df, 'mns', args.ns_ratio, args.output_dir, args.output_filename)
     end_time = time.time()
     (end_time - start_time)/60
