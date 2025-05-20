@@ -4,3 +4,4 @@ center_results/
 __pycache__/
 wandb/
 data_neg_balanced_smiles/
+train.txt
