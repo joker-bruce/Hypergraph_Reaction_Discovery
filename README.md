@@ -29,6 +29,7 @@ The data is preprocessed already and dataset can be found in the data\_neg\_bala
 There are five splits automated generated for five-fold cross validation
 
 ### Model architecture
+[📄 View the Model architecture](pictures/pipeline_overview.pdf)
 
 ### Training
 Please use the following command:
