@@ -22,7 +22,10 @@ pip install -r requirements.txt
 ```
 **Note**: Installation via the recommended method is essential. Errors may occur if installed differently.
 
-## Data preprocessing
+## Data 
+Download the data from the [link](https://drive.google.com/drive/folders/1MIXddERcv0scsVF5j6LFL8fooKtL6wdx?usp=drive_link) and put it under the [data_neg_balanced_smiles](\data_neg_balanced_smiles)
+
+preprocessing
 The data is preprocessed already and dataset can be found in the data\_neg\_balanced\_smiles. Nevertheless, if you want to preprocess the data again, use the following command:
 
 
