@@ -22,7 +22,7 @@ import time
 from chem_negative_sampling import gen_neg_smiles
 import pdb
 
-df = pd.read_csv("./train.txt", header=None, names=["smiles"])
+df = pd.read_csv("./data/train.txt", header=None, names=["smiles"])
 
 ##Hypergraph without reaction node
 #global count
